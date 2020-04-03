@@ -10,9 +10,11 @@ function App() {
             upper: 0
         }
     );
+    const [value, setValue] = useState('');
 
     const onChange = (e) => {
-        setRange({...range, [e.target.name]: +e.target.value});
+
+        setRange({...range, [e.target.name]: +e.target.value });
         console.log('range  :', range);
         console.log('e  :', e);
     };
@@ -24,6 +26,7 @@ function App() {
         console.log('e  :', e);
 
     };
+
 
 
     const onSubmitRange = (e) => {
@@ -44,13 +47,17 @@ function App() {
 
         }
     };
-
+    // const onClearInput = (e) =>{
+    //     setRange({...range, [e.target.name]: +e.target.value});
+    // }
 
     const onReset = () => {
+        setRange({ lower: 0, upper: 0 });
         setResultNumber(0);
         console.log(setRange);
         setButtons([]);
         console.log(setButtons);
+        setValue(0);
     };
 
 
@@ -60,8 +67,8 @@ function App() {
                 <h1> Enter your range from 1 to 10 </h1>
                 <form className={styles.counter}  onSubmit={onSubmitRange}>
                     <div className={styles.inputs}>
-                        <input type="text" name="lower" onChange={onChange}/>
-                        <input type="text" name="upper" onChange={onChange}/>
+                        <input type="text" name="lower" value={range.lower} onChange={onChange}/>
+                        <input type="text" name="upper" value={range.upper} onChange={onChange}/>
                     </div>
                     <button  key={123} onClick={onSubmitRange} className={styles.submit}> SUBMIT </button>
                     <div className={styles.buttons}>
