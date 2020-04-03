@@ -14,12 +14,13 @@ function App() {
     const onChange = (e) => {
         setRange({...range, [e.target.name]: +e.target.value});
         console.log('range  :', range);
-
+        console.log('e  :', e);
     };
     const onButtonClick = (e) => {
         setResultNumber(resultNumb + +e);
 
         console.log('setResultNumber :', setResultNumber);
+        console.log('e  :', e);
 
     };
 
@@ -77,7 +78,7 @@ function App() {
                                 +{el}
                             </button>)}</div>
                     </div>
-                    <button  key={345} onClick={onReset} className={styles.reset}> RESET </button>
+                    <button  key={345} onClick={() => onReset()} className={styles.reset}> RESET </button>
 
                 </form>
             </div>
