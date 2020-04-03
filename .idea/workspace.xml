@@ -90,7 +90,8 @@
       <workItem from="1585888567022" duration="14272000" />
       <workItem from="1585905923081" duration="4907000" />
       <workItem from="1585914376901" duration="3465000" />
-      <workItem from="1585922683719" duration="5803000" />
+      <workItem from="1585922683719" duration="5924000" />
+      <workItem from="1585930318923" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="refactor project name">
       <created>1585888651626</created>
@@ -155,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585928975285</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="reset function">
+      <created>1585930166270</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585930166270</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

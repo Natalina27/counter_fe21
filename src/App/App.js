@@ -16,6 +16,7 @@ function App() {
         console.log('range  :', range);
         console.log('e  :', e);
     };
+
     const onButtonClick = (e) => {
         setResultNumber(resultNumb + +e);
 
@@ -40,13 +41,13 @@ function App() {
             setButtons(arr);
             console.log('setButtons(arr) : ',arr);
 
+
         }
     };
 
 
     const onReset = () => {
         setResultNumber(0);
-        setRange({ lower: 0, upper: 0},);
         console.log(setRange);
         setButtons([]);
         console.log(setButtons);
