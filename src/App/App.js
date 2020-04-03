@@ -42,8 +42,13 @@ function App() {
         }
     };
 
+
     const onReset = () => {
-        setResultNumber(0)
+        setResultNumber(0);
+        setRange({ lower: 0, upper: 0},);
+        console.log(setRange);
+        setButtons([]);
+        console.log(setButtons);
     };
 
 
