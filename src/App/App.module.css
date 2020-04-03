@@ -18,8 +18,7 @@ h1 {
     flex-direction: column;
     background-color: mistyrose;
     box-shadow:9px 11px 54px 22px rgba(166,138,166,1) ;
-    height: 70%;
-    width: 95%;
+    padding: 2em;
 
 }
 
@@ -62,7 +61,7 @@ input{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    flex-wrap: wrap-reverse;
+    flex-flow: wrap;
 
 }
 
@@ -72,7 +71,7 @@ input{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: wrap;
 
 }
 .button{
@@ -99,6 +98,35 @@ input{
 
     background: hotpink;
     font-size: medium;
+}
+
+
+@media (min-width: 1024px){
+
+    .buttons{
+       width: 100%;
+    }
+
+    .negatives{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+    }
+
+
+    .positives{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-flow:row ;
+
+    }
+
+
+
 }
 
 

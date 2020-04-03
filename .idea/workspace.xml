@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="104543f8-c482-4c3d-b982-9bebd02405ee" name="Default Changelist" comment="">
+    <list default="true" id="104543f8-c482-4c3d-b982-9bebd02405ee" name="Default Changelist" comment="added responsive styles - mobile based">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,7 +86,8 @@
       <updated>1585705483347</updated>
       <workItem from="1585705484501" duration="8141000" />
       <workItem from="1585888567022" duration="14272000" />
-      <workItem from="1585905923081" duration="4848000" />
+      <workItem from="1585905923081" duration="4907000" />
+      <workItem from="1585914376901" duration="2362000" />
     </task>
     <task id="LOCAL-00001" summary="refactor project name">
       <created>1585888651626</created>
@@ -115,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585912615218</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added responsive styles - mobile based">
+      <created>1585914347577</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585914347577</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +146,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor project name" />
     <MESSAGE value="added Submit and Reset buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Submit and Reset buttons" />
+    <MESSAGE value="added responsive styles - mobile based" />
+    <option name="LAST_COMMIT_MESSAGE" value="added responsive styles - mobile based" />
   </component>
 </project>

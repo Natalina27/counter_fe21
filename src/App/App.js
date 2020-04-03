@@ -50,7 +50,7 @@ function App() {
     return (
         <main className={styles.app}>
             <div className={styles.container}>
-                <h1> Enter your range from 1 to 5 </h1>
+                <h1> Enter your range from 1 to 10 </h1>
                 <form className={styles.counter}  onSubmit={onSubmitRange}>
                     <div className={styles.inputs}>
                         <input type="text" name="lower" onChange={onChange}/>
@@ -69,7 +69,7 @@ function App() {
                             {buttons.reverse().map(el => <button key={el}
                                                                  onClick={() => onButtonClick(el)}
                                                                  className={styles.button}>
-                                +{el}
+                                {el}
                             </button>)}</div>
                     </div>
                     <button  key={345} onClick={onReset} className={styles.reset}> RESET </button>
