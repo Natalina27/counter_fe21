@@ -25,6 +25,8 @@ h1 {
 
 .counter{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     width: 80%;
 }
@@ -76,9 +78,9 @@ input{
 .button{
     background: lightpink;
     border: 1px plum;
-    box-shadow:1px 3px 5px 4px rgba(166,138,166,1) ;
+    /*box-shadow:1px 3px 5px 4px rgba(166,138,166,1) ;*/
     font-size: large;
-    margin: 5px;
+    /*margin: 5px;*/
 
 
 }
@@ -87,6 +89,17 @@ input{
     background: lightpink;
     padding: .5em;
     margin: .5em;
+}
+.submit{
+
+    background: pink;
+    font-size: medium;
+}
+
+.reset{
+
+    background: hotpink;
+    font-size: medium;
 }
 
 
