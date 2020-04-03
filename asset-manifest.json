@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Natalina27/counter_fe21/static/css/main.09e66393.chunk.css",
+    "main.js": "/Natalina27/counter_fe21/static/js/main.d320f80d.chunk.js",
+    "main.js.map": "/Natalina27/counter_fe21/static/js/main.d320f80d.chunk.js.map",
+    "runtime-main.js": "/Natalina27/counter_fe21/static/js/runtime-main.63b489f7.js",
+    "runtime-main.js.map": "/Natalina27/counter_fe21/static/js/runtime-main.63b489f7.js.map",
+    "static/js/2.fdcb2284.chunk.js": "/Natalina27/counter_fe21/static/js/2.fdcb2284.chunk.js",
+    "static/js/2.fdcb2284.chunk.js.map": "/Natalina27/counter_fe21/static/js/2.fdcb2284.chunk.js.map",
+    "index.html": "/Natalina27/counter_fe21/index.html",
+    "precache-manifest.e53e49bda1aff66567a51ffef0ec9a97.js": "/Natalina27/counter_fe21/precache-manifest.e53e49bda1aff66567a51ffef0ec9a97.js",
+    "service-worker.js": "/Natalina27/counter_fe21/service-worker.js",
+    "static/css/main.09e66393.chunk.css.map": "/Natalina27/counter_fe21/static/css/main.09e66393.chunk.css.map",
+    "static/js/2.fdcb2284.chunk.js.LICENSE.txt": "/Natalina27/counter_fe21/static/js/2.fdcb2284.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63b489f7.js",
+    "static/js/2.fdcb2284.chunk.js",
+    "static/css/main.09e66393.chunk.css",
+    "static/js/main.d320f80d.chunk.js"
+  ]
+}
