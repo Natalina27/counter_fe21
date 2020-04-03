@@ -2,10 +2,10 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
-      <excludeFolder url="file://$MODULE_DIR$/build" />
-      <excludeFolder url="file://$MODULE_DIR$/temp" />
-      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/../todo_fe21_420/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/../todo_fe21_420/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../todo_fe21_420/temp" />
+      <excludeFolder url="file://$MODULE_DIR$/../todo_fe21_420/tmp" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
