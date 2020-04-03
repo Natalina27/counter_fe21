@@ -69,7 +69,7 @@ function App() {
                             {buttons.reverse().map(el => <button key={el}
                                                                  onClick={() => onButtonClick(el)}
                                                                  className={styles.button}>
-                                {el}
+                                +{el}
                             </button>)}</div>
                     </div>
                     <button  key={345} onClick={onReset} className={styles.reset}> RESET </button>
