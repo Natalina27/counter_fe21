@@ -52,12 +52,12 @@ function App() {
     // }
 
     const onReset = () => {
-        setRange({ lower: 0, upper: 0 });
+        setRange({ lower: '', upper: '' });
         setResultNumber(0);
         console.log(setRange);
         setButtons([]);
         console.log(setButtons);
-        setValue(0);
+        setValue(value + '');
     };
 
 
