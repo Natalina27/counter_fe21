@@ -81,9 +81,6 @@ input{
     background: lightpink;
     box-shadow:1px 3px 5px 4px rgba(166,138,166,1) ;
     margin: .5em;
-
-
-
 }
 .number{
     display: flex;
@@ -96,9 +93,8 @@ input{
     width: 30%;
 }
 .submit{
-
-    background: pink;
-    font-size: medium;
+    width: 1px;
+    height: 1px;
 }
 
 .reset{
