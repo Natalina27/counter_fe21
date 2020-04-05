@@ -4,26 +4,28 @@ import styles from './App.module.css'
 function App() {
     const [buttons, setButtons] = useState([]);
     const [resultNumb, setResultNumber] = useState(0);
+    const [value, setValue] = useState('');
     const [range, setRange] = useState(
         {
             lower: 0,
             upper: 0
         }
     );
-    const [value, setValue] = useState('');
+
+    console.log(value);
 
     const onChange = (e) => {
 
-        setRange({...range, [e.target.name]: +e.target.value });
-        console.log('range  :', range);
-        console.log('e  :', e);
+        setRange({...range, [e.target.name]:  +e.target.value });
+        // console.log('range  :', range);
+        // console.log('e  :', e);
     };
 
     const onButtonClick = (e) => {
         setResultNumber(resultNumb + +e);
 
-        console.log('setResultNumber :', setResultNumber);
-        console.log('e  :', e);
+        // console.log('setResultNumber :', setResultNumber);
+        // console.log('e  :', e);
 
     };
 
@@ -33,8 +35,8 @@ function App() {
         e.preventDefault();
         const minRange = range["lower"];
         const maxRange = range["upper"];
-        console.log('minRange: ',minRange );
-        console.log('maxRange: ',maxRange );
+        // console.log('minRange: ',minRange );
+        // console.log('maxRange: ',maxRange );
 
         if (minRange < maxRange) {
             let arr = [];
@@ -42,33 +44,32 @@ function App() {
                 arr.push(i);
             }
             setButtons(arr);
-            console.log('setButtons(arr) : ',arr);
+            // console.log('setButtons(arr) : ',arr);
 
 
         }
     };
-    // const onClearInput = (e) =>{
-    //     setRange({...range, [e.target.name]: +e.target.value});
-    // }
 
     const onReset = () => {
         setRange({ lower: '', upper: '' });
         setResultNumber(0);
-        console.log(setRange);
+        // console.log(setRange);
         setButtons([]);
-        console.log(setButtons);
-        setValue(value + '');
-    };
+        // console.log(setButtons);
+        setValue( value + '' );
 
+    }
 
+    console.log(range.lower, range.upper);
     return (
         <main className={styles.app}>
             <div className={styles.container}>
                 <h1> Enter your range from 1 to 10 </h1>
                 <form className={styles.counter}  onSubmit={onSubmitRange}>
                     <div className={styles.inputs}>
-                        <input type="text" name="lower" value={range.lower} onChange={onChange}/>
-                        <input type="text" name="upper" value={range.upper} onChange={onChange}/>
+                        <input type="text" name="lower" value={ range.lower } onChange={onChange}/>
+                        <input type="text" name="upper" value={ range.upper } onChange={onChange}/>
+
                     </div>
                     <button  key={123} onClick={onSubmitRange} className={styles.submit}> SUBMIT </button>
                     <div className={styles.buttons}>
