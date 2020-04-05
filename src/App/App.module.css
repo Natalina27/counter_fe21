@@ -93,8 +93,8 @@ input{
     width: 30%;
 }
 .submit{
-    width: 1px;
-    height: 1px;
+    width: 0;
+    height: 0;
 }
 
 .reset{
