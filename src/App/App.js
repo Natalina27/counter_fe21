@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import styles from './App.module.css';
 import Counter from "../Counter/Counter";
+import TotalCounter from "../TotalCounter/TotalCounter";
 
 
 function App() {
@@ -10,6 +11,19 @@ function App() {
     const [minRange, setMinRange] = useState({min: ''});
     const [maxRange, setMaxRange] = useState({max: ''});
     const [buttons, setButtons] = useState([]);
+
+    const initialCounters = [
+        {id: 123, name: 'Counter 1', value: 0},
+        {id: 234, name: 'Second', value: 0}
+    ];
+
+    const [counters, setCounters] = useState(initialCounters);
+
+    const resetTotalCount = () => {
+        console.log('reset');
+        const newCounters = counters.map(el => ({ ...el, value:0 }));
+        setCounters(newCounters);
+    };
 
     const onButtonClick = (e) => {
         setResultNumber(resultNumb + +e);
@@ -46,16 +60,22 @@ function App() {
 
     return (
         <main className={styles.app}>
-            <Counter buttons={buttons}
-                     onButtonClick={onButtonClick}
-                     onChangeMinRange={onChangeMinRange}
-                     onChangeMaxRange={onChangeMaxRange}
-                     onSubmitRange={onSubmitRange}
-                     onReset={onReset}
-                     minRange={minRange}
-                     maxRange={maxRange}
-                     resultNumb={resultNumb}
-            />
+            <h1>COUNTERS</h1>
+            <TotalCounter counters={counters} reset={resetTotalCount} />
+            {counters.map(el =>
+                <Counter key={el.id}
+                         buttons={buttons}
+                         onButtonClick={onButtonClick}
+                         onChangeMinRange={onChangeMinRange}
+                         onChangeMaxRange={onChangeMaxRange}
+                         onSubmitRange={onSubmitRange}
+                         onReset={onReset}
+                         minRange={minRange}
+                         maxRange={maxRange}
+                         resultNumb={resultNumb}
+                />
+            )}
+
         </main>
     );
 }

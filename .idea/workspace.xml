@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="104543f8-c482-4c3d-b982-9bebd02405ee" name="Default Changelist" comment="" />
+    <list default="true" id="104543f8-c482-4c3d-b982-9bebd02405ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/TotalCounter/ResetAllCounters/ResetAllCounters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TotalCounter/ResetAllCounters/ResetAllCounters.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TotalCounter/TotalCounter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TotalCounter/TotalCounter.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Counter/Counter.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Counter/Counter.module.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson_01.04" />
+        <entry key="$PROJECT_DIR$" value="homework_01.04" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -104,7 +113,7 @@
       <workItem from="1585934858319" duration="3473000" />
       <workItem from="1586015450876" duration="4271000" />
       <workItem from="1586094379691" duration="10277000" />
-      <workItem from="1586160536872" duration="10329000" />
+      <workItem from="1586160536872" duration="15056000" />
     </task>
     <task id="LOCAL-00001" summary="refactor project name">
       <created>1585888651626</created>
