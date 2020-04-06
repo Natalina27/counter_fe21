@@ -11,7 +11,6 @@ function App() {
     const [maxRange, setMaxRange] = useState({max: ''});
     const [buttons, setButtons] = useState([]);
 
-
     const onButtonClick = (e) => {
         setResultNumber(resultNumb + +e);
     };

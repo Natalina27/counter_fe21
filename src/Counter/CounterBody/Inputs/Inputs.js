@@ -6,7 +6,6 @@ function Inputs(
     {onSubmitRange, minRange, maxRange, onChangeMinRange, onChangeMaxRange }
 ) {
     return (
-
         <form className={styles.inputs}  onSubmit={onSubmitRange}>
             <input type="text" name='min'
                    value={minRange.min}
@@ -19,7 +18,6 @@ function Inputs(
                    value=''
                    className={styles.submit}/>
         </form>
-
     );
 }
 

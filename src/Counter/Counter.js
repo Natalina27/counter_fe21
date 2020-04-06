@@ -22,7 +22,7 @@ function Counter(
                     onButtonClick={onButtonClick}
                     resultNumb={resultNumb}
                 />
-                 <Reset key={345}
+                <Reset key={345}
                        onReset={onReset}
                 />
             </div>

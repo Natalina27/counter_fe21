@@ -9,7 +9,6 @@ function CounterBody(
     ) {
     return (
                 <div className={styles.counter}>
-
                    <Inputs
                        onSubmitRange={onSubmitRange}
                        minRange={minRange}
@@ -21,9 +20,7 @@ function CounterBody(
                             resultNumb={resultNumb}
                             onButtonClick={onButtonClick}
                    />
-
                 </div>
-
     );
 }
 
