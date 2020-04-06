@@ -1,9 +1,7 @@
 body{
     margin: 0;
 }
-h1 {
-    font-size: large;
-}
+
 .app {
     display: flex;
     justify-content: center;
@@ -11,125 +9,7 @@ h1 {
     height: 100vh;
     background-color: lavenderblush;
 }
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: mistyrose;
-    box-shadow:9px 11px 54px 22px rgba(166,138,166,1) ;
-    padding: 2em;
 
-}
-
-.counter{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    /*width: 80%;*/
-}
-.inputs{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-
-}
-.buttons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width: min-content;
-    margin: .5em;
-}
-
-input{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30px;
-    height: 30px;
-    margin: 1em;
-    padding: 0 0 0 2em;
-
-}
-.negatives{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-flow: wrap-reverse;
-    width:30%;
-
-
-}
-
-
-.positives{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-flow: wrap;
-    width:30%;
-
-}
-.button{
-    background: lightpink;
-    box-shadow:1px 3px 5px 4px rgba(166,138,166,1) ;
-    margin: .5em;
-}
-.number{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: large;
-    background: lightpink;
-    padding: .5em;
-    margin: 1em;
-    width: 30%;
-}
-.submit{
-    width: 0;
-    height: 0;
-    padding: 0;
-}
-
-.reset{
-
-    background: hotpink;
-    font-size: medium;
-}
-
-
-@media (min-width: 1024px){
-
-    .buttons{
-       width: 100%;
-    }
-
-    .negatives{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-
-    }
-
-
-    .positives{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-    }
-
-
-
-}
 
 
 

@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: mistyrose;
+    box-shadow:9px 11px 54px 22px rgba(166,138,166,1) ;
+    padding: 2em;
+}
+
