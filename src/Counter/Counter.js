@@ -6,14 +6,15 @@ import Reset from "./Reset/Reset";
 
 
 function Counter(
-    { buttons, minRange, maxRange, onChangeMinRange, onChangeMaxRange, onSubmitRange, onButtonClick, resultNumb, onReset}
+    { positiveRange, negativeRange, minRange, maxRange, onChangeMinRange, onChangeMaxRange, onSubmitRange, onButtonClick, resultNumb, onReset}
     ) {
 
     return (
             <div className={styles.container}>
                 <Header />
                 <CounterBody
-                    buttons={buttons}
+                    positiveRange={positiveRange}
+                    negativeRange={negativeRange}
                     minRange={minRange}
                     maxRange={maxRange}
                     onChangeMinRange={onChangeMinRange}
