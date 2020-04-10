@@ -6,7 +6,10 @@ import Reset from "./Reset/Reset";
 
 
 function Counter(
-    { positiveRange, negativeRange, minRange, maxRange, onChangeMinRange, onChangeMaxRange, onSubmitRange, onButtonClick, resultNumb, onReset}
+    { positiveRange, negativeRange,
+        minRange, maxRange,
+        onChangeMinRange, onChangeMaxRange,
+        onButtonClick, resultNumb, onReset}
     ) {
 
     return (
@@ -19,7 +22,6 @@ function Counter(
                     maxRange={maxRange}
                     onChangeMinRange={onChangeMinRange}
                     onChangeMaxRange={onChangeMaxRange}
-                    onSubmitRange={onSubmitRange}
                     onButtonClick={onButtonClick}
                     resultNumb={resultNumb}
                 />

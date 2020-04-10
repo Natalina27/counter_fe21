@@ -14,6 +14,8 @@ function CounterBody(
                        maxRange={maxRange}
                        onChangeMinRange={onChangeMinRange}
                        onChangeMaxRange={onChangeMaxRange}
+                       positiveRange={positiveRange}
+                       negativeRange={negativeRange}
                    />
                    <Buttons
                             resultNumb={resultNumb}

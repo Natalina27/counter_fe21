@@ -5,7 +5,7 @@ import Counter from "../Counter/Counter";
 
 function App() {
 
-    const [resultNumb, setResultNumber] = useState(0);
+    const [resultNumb, setResultNumber] = useState(10);
     const [value, setValue] = useState('');
     const [minRange, setMinRange] = useState(0);
     const [maxRange, setMaxRange] = useState(0);
@@ -52,7 +52,6 @@ function App() {
         setMinRange({'min': ''});
         setMaxRange({'max': ''});
         setResultNumber(0);
-        // setRange([]);
         setValue(value + '');
     };
 

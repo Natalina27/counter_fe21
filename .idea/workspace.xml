@@ -4,9 +4,11 @@
     <list default="true" id="104543f8-c482-4c3d-b982-9bebd02405ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Counter/CounterBody/Buttons/Buttons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Counter/CounterBody/Buttons/Buttons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Counter/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Counter/Counter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Counter/CounterBody/Buttons/Buttons.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Counter/CounterBody/Buttons/Buttons.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Counter/CounterBody/CounterBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Counter/CounterBody/CounterBody.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Counter/CounterBody/CounterBody.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Counter/CounterBody/CounterBody.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Counter/CounterBody/Inputs/Inputs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Counter/CounterBody/Inputs/Inputs.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
