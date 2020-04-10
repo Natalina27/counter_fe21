@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="104543f8-c482-4c3d-b982-9bebd02405ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Counter/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Counter/Counter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Counter/CounterBody/Buttons/Buttons.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Counter/CounterBody/Buttons/Buttons.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Counter/CounterBody/CounterBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Counter/CounterBody/CounterBody.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Counter/CounterBody/CounterBody.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Counter/CounterBody/CounterBody.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Counter/CounterBody/Inputs/Inputs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Counter/CounterBody/Inputs/Inputs.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,6 +109,7 @@
       <workItem from="1586094379691" duration="10277000" />
       <workItem from="1586160536872" duration="10329000" />
       <workItem from="1586513604721" duration="1146000" />
+      <workItem from="1586521023973" duration="227000" />
     </task>
     <task id="LOCAL-00001" summary="refactor project name">
       <created>1585888651626</created>
@@ -256,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586343226889</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="changes made with Victor">
+      <created>1586520431258</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1586520431258</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
