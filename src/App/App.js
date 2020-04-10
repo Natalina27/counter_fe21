@@ -47,21 +47,7 @@ function App() {
         setPositiveRange(createPositiveRange(minRange, to));
     };
 
-    // const onSubmitRange = (e) => {
-    //     e.preventDefault();
-    //     const min = minRange['min'];
-    //     const max = maxRange['max'];
-    //     console.log('min: ', min);
-    //     console.log('max: ', max);
-    //
-    //     if (min < max) {
-    //         let arr = [];
-    //         for (let i = min; i <= max; i++) {
-    //             arr.push(i);
-    //         }
-    //         setRange(arr);
-    //     }
-    // };
+
     const onReset = () => {
         setMinRange({'min': ''});
         setMaxRange({'max': ''});
@@ -77,7 +63,6 @@ function App() {
                      onButtonClick={onButtonClick}
                      onChangeMinRange={onChangeMinRange}
                      onChangeMaxRange={onChangeMaxRange}
-                     // onSubmitRange={onSubmitRange}
                      onReset={onReset}
                      minRange={minRange}
                      maxRange={maxRange}

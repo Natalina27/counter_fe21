@@ -1,63 +1,16 @@
+.number{
+
+}
+
+.button{
+
+}
 .buttons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width: min-content;
-    margin: .5em;
+
 }
 .negatives{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-flow: wrap-reverse;
-    width:30%;
+
 }
 .positives{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-flow: wrap;
-    width:30%;
-
-}
-.button{
-    background: lightpink;
-    box-shadow:1px 3px 5px 4px rgba(166,138,166,1) ;
-    margin: .5em;
-}
-.number{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: large;
-    background: lightpink;
-    padding: .5em;
-    margin: 1em;
-    width: 30%;
-}
-
-@media (min-width: 1024px){
-
-    .buttons{
-        width: 100%;
-    }
-
-    .negatives{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-
-    }
-
-    .positives{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-    }
 
 }

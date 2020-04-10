@@ -5,20 +5,21 @@ import Inputs from "./Inputs/Inputs";
 
 
 function CounterBody(
-    { onSubmitRange, minRange, maxRange, onChangeMinRange, onChangeMaxRange, buttons, onButtonClick, resultNumb }
+    { positiveRange, negativeRange , minRange, maxRange, onChangeMinRange, onChangeMaxRange, onButtonClick, resultNumb }
     ) {
     return (
                 <div className={styles.counter}>
                    <Inputs
-                       onSubmitRange={onSubmitRange}
                        minRange={minRange}
                        maxRange={maxRange}
                        onChangeMinRange={onChangeMinRange}
                        onChangeMaxRange={onChangeMaxRange}
                    />
-                   <Buttons buttons={buttons}
+                   <Buttons
                             resultNumb={resultNumb}
                             onButtonClick={onButtonClick}
+                            positiveRange={positiveRange}
+                            negativeRange={negativeRange}
                    />
                 </div>
     );
