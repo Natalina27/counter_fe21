@@ -4,7 +4,6 @@
     <list default="true" id="104543f8-c482-4c3d-b982-9bebd02405ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Counter/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Counter/Counter.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -109,6 +108,7 @@
       <workItem from="1586015450876" duration="4271000" />
       <workItem from="1586094379691" duration="10277000" />
       <workItem from="1586160536872" duration="10329000" />
+      <workItem from="1586513604721" duration="1146000" />
     </task>
     <task id="LOCAL-00001" summary="refactor project name">
       <created>1585888651626</created>
@@ -243,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586181425050</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="changes made with Victor">
+      <created>1586343226889</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1586343226889</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +281,7 @@
     <MESSAGE value="submit styles" />
     <MESSAGE value="App code divided in components" />
     <MESSAGE value="Instructions for QA engineers added in README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Instructions for QA engineers added in README.md" />
+    <MESSAGE value="changes made with Victor" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes made with Victor" />
   </component>
 </project>

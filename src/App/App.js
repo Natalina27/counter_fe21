@@ -23,6 +23,7 @@ function App() {
         }
         return range;
     };
+
     const createNegativeRange =  (from, to) => {
         const range = [];
         for(let i = to; i <= from; i-- ){
