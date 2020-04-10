@@ -26,7 +26,7 @@ function App() {
 
     const createNegativeRange =  (from, to) => {
         const range = [];
-        for(let i = to; i <= from; i-- ){
+        for(let i = to; i >= from; i-- ){
             range.push(i);
         }
         return range;
@@ -53,6 +53,8 @@ function App() {
         setMaxRange({'max': ''});
         setResultNumber(0);
         setValue(value + '');
+        setNegativeRange([]);
+        setPositiveRange([]);
     };
 
     return (
