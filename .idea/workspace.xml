@@ -4,7 +4,6 @@
     <list default="true" id="104543f8-c482-4c3d-b982-9bebd02405ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Counter/CounterBody/Buttons/Buttons.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Counter/CounterBody/Buttons/Buttons.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Counter/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Counter/Header/Header.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +112,7 @@
       <workItem from="1586513604721" duration="1146000" />
       <workItem from="1586521023973" duration="234000" />
       <workItem from="1586556889411" duration="2179000" />
-      <workItem from="1586811173486" duration="254000" />
+      <workItem from="1586811173486" duration="1262000" />
     </task>
     <task id="LOCAL-00001" summary="refactor project name">
       <created>1585888651626</created>
@@ -283,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586563008961</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="removed reverse() from button component">
+      <created>1586811635810</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1586811635810</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,6 +322,7 @@
     <MESSAGE value="Instructions for QA engineers added in README.md" />
     <MESSAGE value="changes made with Victor" />
     <MESSAGE value="changes made with Ivan" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes made with Ivan" />
+    <MESSAGE value="removed reverse() from button component" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed reverse() from button component" />
   </component>
 </project>
