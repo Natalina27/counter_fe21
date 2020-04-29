@@ -1,0 +1,21 @@
+.number{
+    margin: 5px;
+    font-size: 30px;
+}
+
+.button{
+
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+
+}
+.negatives{
+
+}
+.positives{
+
+}

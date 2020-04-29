@@ -2,13 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edd6ceed-36c2-47b3-9bbc-baaa75e691d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Counter/Counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Counter/Counter.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Counter/CounterBody/Buttons/Buttons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Counter/CounterBody/Buttons/Buttons.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Counter/CounterBody/CounterBody.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Counter/CounterBody/CounterBody.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Counter/CounterBody/Inputs/Inputs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Counter/CounterBody/Inputs/Inputs.modules.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Counter/Header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Counter/Header/Header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Counter/Reset/Reset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Counter/Reset/Reset.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -23,6 +45,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,7 +99,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588011094567</updated>
-      <workItem from="1588011098525" duration="1757000" />
+      <workItem from="1588011098525" duration="1767000" />
+      <workItem from="1588102301986" duration="322000" />
+      <workItem from="1588172167584" duration="1241000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1588015931371</created>
@@ -85,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588015931371</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1588016134950</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588016134950</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,7 +128,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
