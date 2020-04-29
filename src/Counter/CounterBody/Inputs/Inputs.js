@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './Inputs.module.css';
 
-
 function Inputs(
     { minRange, maxRange, onChangeMinRange, onChangeMaxRange }
 ) {
